@@ -1,5 +1,13 @@
 # mooncat-walkcycle
 
+## Demo
+
+Up, Down, Left, Right Arrow Keys to Walk
+Space Bar to Jump
+Change the MoonCat # to see a different MoonCat
+
+[Live Demo](https://vinny-888.github.io/mooncat-walkcycle/index.html)
+
 ## Import Module
 
 ```
