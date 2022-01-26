@@ -28,8 +28,6 @@ let tokenId = 0;
 // Generate the Sprite Sheet for the specific MoonCat
 let spriteSheet = MoonCatWalk.generateMoonCatSpriteSheet(tokenId, size);
 
-let mooncat = document.getElementById('mooncat');
-
 // TODO updte these as the cat moves 
 let frame = 0;
 let direction = 0;
@@ -52,11 +50,14 @@ let y = direction * 32;
   7 = idle left
 */
 
+// Get the dom element that will show the MoonCat walking (CSS for div https://github.com/vinny-888/mooncat-walkcycle/blob/main/css/walk.css#L12-L20)
+let animation = document.getElementById('animation');
+
 // Set the Sprite Sheet offset for each of the walk cycles
-mooncat.style.backgroundPosition = `-${x}px -${y}px`;
+animation.style.backgroundPosition = `-${x}px -${y}px`;
 
 // Set the background image to the base64 image data sprite sheet generated above
-mooncat.style.backgroundImage = "url('"+spriteSheet+"')";
+animation.style.backgroundImage = "url('"+spriteSheet+"')";
 ```
 
 ## Sprite Sheet for MoonCat TokenId=0
