@@ -13,6 +13,8 @@ Change the MoonCat # to see a different MoonCat
 
 ## Import Module
 
+[mooncatWalk.js](https://github.com/vinny-888/mooncat-walkcycle/blob/main/js/mooncatWalk.js)
+
 ```javascript
 import {MoonCatWalk} from './mooncatWalk.js';
 ```
