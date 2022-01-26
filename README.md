@@ -10,13 +10,13 @@ Change the MoonCat # to see a different MoonCat
 
 ## Import Module
 
-```
+```javascript
 import {MoonCatWalk} from './mooncatWalk.js';
 ```
 
 ## Usage
 
-```
+```javascript
 let size = 1;
 let tokenId = 0;
 
