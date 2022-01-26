@@ -33,13 +33,13 @@ let frame = 0;
 let direction = 0;
 
 let x = frame * 32;
-/*
+/* columns - left to right in the sprite sheet
   0 = frame 1
   ...
   7 = frame 8
 */
 let y = direction * 32;
-/*
+/* rows - top to bottom in the sprite sheet
   0 = right
   1 = up
   2 = down
