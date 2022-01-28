@@ -10,15 +10,6 @@ body{
     zoom: 4;
     image-rendering: pixelated;
 }
-.animation{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 32px;
-    height: 32px;
-    zoom: 4;
-    image-rendering: pixelated;
-}
 
 #world{
     width: 800px;
