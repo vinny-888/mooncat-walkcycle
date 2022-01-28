@@ -1,6 +1,14 @@
 body{
     background-color: #000;
 }
+
+#world{
+    width: 800px;
+    height: 600px;
+    position: relative;
+    background-image: url("../images/moon.png");
+}
+
 #animation{
     position: absolute;
     top: 0px;
@@ -9,11 +17,4 @@ body{
     height: 32px;
     zoom: 4;
     image-rendering: pixelated;
-}
-
-#world{
-    width: 800px;
-    height: 600px;
-    position: relative;
-    background-image: url("../images/moon.png");
 }
